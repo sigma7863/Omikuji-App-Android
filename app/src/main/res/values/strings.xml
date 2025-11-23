@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Omikuji</string>
+
+     <string name="title">今日の運勢を占いましょう</string>
+     <string name="img_desc">おみくじの結果</string>
+     <string name="btn_text">占う</string>
+     <string name="btn_text_again">もう一度</string>
+</resources>

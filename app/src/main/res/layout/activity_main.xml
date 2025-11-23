@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/omikuji"
+        android:contentDescription="@string/img_desc"
+        android:layout_marginVertical="60dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_text" />
+
+</LinearLayout>
+
+<!--まとめ-->
+<!--レイアウト-->
+<!--ビューの配置方法を決めるもの-->
+<!--LinearLayout: ビューを横・縦に並べるレイアウト-->
+<!--ビュー-->
+<!--テキストやボタンなどの要素-->
+<!--TextView: テキスト-->
+<!--ImageView: 画像-->
+<!--Button: ボタン-->
+<!--属性-->
+<!--サイズ・配置などの設定-->
+<!--属性名="値"-->
+<!--よく使う値-->
+<!--horizontal: 水平-->
+<!--vertical: 垂直-->
+<!--strings.xml-->
+<!--文字列を書いておく場所-->
+<!--activity_main.xml に直接書かないで strings.xml を使う-->
